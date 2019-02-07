@@ -55,44 +55,64 @@ a {
 	padding: 3rem 3rem 3rem 3rem;
 }
 
+#welcome {
+	text-align: center;
+}
+
 #joepic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 0;
+	padding: 0 5rem 0 30rem;
 }
 
 #andrewpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 0;
+	padding: 0 5rem 0 30rem;
 }
 
 #devonpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 0;
+	padding: 0 5rem 0 30rem;
 }
 
 #christinepic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 0;
+	padding: 0 5rem 0 30rem;
 }
 
 #joebio {
-	padding: 0 0 40rem 0;
+	padding: 0 30rem 30rem 0;
 }
 
 #andrewbio {
-	padding: 0 0 40rem 0;
+	padding: 0 30rem 30rem 0;
 }
 
 #devonbio {
-	padding: 0 0 40rem 0;
+	padding: 0 30rem 30rem 0;
 }
 
 #christinebio {
-	padding: 0 0 40rem 0;
+	padding: 0 30rem 30rem 0;
+}
+
+#joe {
+	padding: 0 0 0 30rem;
+}
+
+#andrew {
+	padding: 0 0 0 30rem;
+}
+
+#devon {
+	padding: 0 0 0 30rem;
+}
+
+#christine {
+	padding: 0 0 0 30rem;
 }
 
 #back {
