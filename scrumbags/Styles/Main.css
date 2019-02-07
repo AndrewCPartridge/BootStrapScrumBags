@@ -53,6 +53,8 @@ a {
 
 #mainpage {
 	padding: 3rem 3rem 3rem 3rem;
+	max-width: 850px;
+	margin: auto;
 }
 
 #welcome {
@@ -62,57 +64,41 @@ a {
 #joepic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 30rem;
+	padding: 0 5rem 5rem 0;
 }
 
 #andrewpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 30rem;
+	padding: 0 5rem 5rem 0;
 }
 
 #devonpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 30rem;
+	padding: 0 5rem 5rem 0;
 }
 
 #christinepic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 0 30rem;
+	padding: 0 5rem 5rem 0;
 }
 
 #joebio {
-	padding: 0 30rem 30rem 0;
+	padding: 0 0 30rem 0;
 }
 
 #andrewbio {
-	padding: 0 30rem 30rem 0;
+	padding: 0 0 30rem 0;
 }
 
 #devonbio {
-	padding: 0 30rem 30rem 0;
+	padding: 0 0 30rem 0;
 }
 
 #christinebio {
-	padding: 0 30rem 30rem 0;
-}
-
-#joe {
-	padding: 0 0 0 30rem;
-}
-
-#andrew {
-	padding: 0 0 0 30rem;
-}
-
-#devon {
-	padding: 0 0 0 30rem;
-}
-
-#christine {
-	padding: 0 0 0 30rem;
+	padding: 0 0 30rem 0;
 }
 
 #back {
