@@ -1,0 +1,106 @@
+﻿@import url(reset.css);
+
+html {
+	background-color: darkgrey;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 2rem;
+	color: aliceblue;
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+#banner {
+	background-color: grey;
+	padding: 3rem 3rem 3rem 3rem;
+}
+
+	#banner nav ul {
+		text-align: center;
+	}
+
+	#banner nav li {
+		display: inline;
+	}
+
+	#banner nav a {
+		color: aliceblue;
+		padding: 1rem 1rem;
+		border-style: solid;
+		border-width: thin;
+		border-color: aliceblue;
+	}
+
+		#banner nav a:hover {
+			background-color: aliceblue;
+			color: grey;
+		}
+
+#mainpage {
+	padding: 3rem 3rem 3rem 3rem;
+}
+
+#joepic {
+	width: 500px;
+	float: left;
+	padding: 0 5rem 0 0;
+}
+
+#andrewpic {
+	width: 500px;
+	float: left;
+	padding: 0 5rem 0 0;
+}
+
+#devonpic {
+	width: 500px;
+	float: left;
+	padding: 0 5rem 0 0;
+}
+
+#christinepic {
+	width: 500px;
+	float: left;
+	padding: 0 5rem 0 0;
+}
+
+#joebio {
+	padding: 0 0 40rem 0;
+}
+
+#andrewbio {
+	padding: 0 0 40rem 0;
+}
+
+#devonbio {
+	padding: 0 0 40rem 0;
+}
+
+#christinebio {
+	padding: 0 0 40rem 0;
+}
+
+#back {
+	float: right;
+	color: aliceblue;
+	font-style: italic;
+}
+
+	#back:hover {
+		color: grey;
+	}
