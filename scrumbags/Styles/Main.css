@@ -85,20 +85,24 @@ a {
 	padding: 0 5rem 5rem 0;
 }
 
-#joebio {
-	padding: 0 0 30rem 0;
+#joediv {
+	min-height: 800px;
+	margin: auto;
 }
 
-#andrewbio {
-	padding: 0 0 30rem 0;
+#andrewdiv {
+	min-height: 800px;
+	margin: auto;
 }
 
-#devonbio {
-	padding: 0 0 30rem 0;
+#devondiv {
+	min-height: 800px;
+	margin: auto;
 }
 
-#christinebio {
-	padding: 0 0 30rem 0;
+#christinediv {
+	min-height: 800px;
+	margin: auto;
 }
 
 #back {
