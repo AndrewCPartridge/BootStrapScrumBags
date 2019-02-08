@@ -1,4 +1,4 @@
-added new version of website!
+website changelog:
 - MAXIMUM WEBSITE BALANCE ACHIEVED (things are centered and more compact)
 - warm and fuzzy intro added
 - added sexy-ass parallax effect
