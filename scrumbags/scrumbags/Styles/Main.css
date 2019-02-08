@@ -1,13 +1,16 @@
 ﻿@import url(reset.css);
 
 html {
-	background-color: aliceblue;
+	background-color: rgb(28, 98, 160);
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/**/
 }
 
 body {
+	cursor: url(../Images/cursor.png), auto;
 	line-height: 1.4;
 	color: grey;
+	
 }
 
 h1 {
@@ -98,6 +101,7 @@ a {
 #joediv {
 	min-height: 800px;
 	margin: auto;
+	color: rgb(51, 19, 19); 
 }
 
 #andrewdiv {
