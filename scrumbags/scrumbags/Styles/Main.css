@@ -82,7 +82,14 @@ a {
 	width: 500px;
 	float: left;
 	padding: 0 5rem 5rem 0;
+	
 }
+#megamangif {
+	float: left;
+	padding: 0 1rem 1rem 0;
+}
+
+
 
 #andrewpic {
 	width: 500px;
