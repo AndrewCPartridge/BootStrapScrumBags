@@ -6,8 +6,12 @@ html {
 	/**/
 }
 
+ 
+
 body {
-	cursor: url(../Images/cursor.png), auto;
+	/*cursor: url(../Images/cursor2.gif), pointer;
+	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/mega_man_dance.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/mega_man_dance.gif"), auto;
+*/
 	line-height: 1.4;
 	color: grey;
 	
