@@ -71,6 +71,7 @@
     <Content Include="Images\andrew.jpg" />
     <Content Include="Images\christine.jpg" />
     <Content Include="Images\DSCN1877.JPG" />
+    <Content Include="Images\GIMM.png" />
     <Content Include="Images\P24.jpg" />
     <Content Include="Styles\Main.css" />
     <Content Include="Styles\reset.css" />

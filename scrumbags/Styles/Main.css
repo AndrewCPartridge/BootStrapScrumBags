@@ -26,8 +26,13 @@ a {
 }
 
 #banner {
-	background-color: grey;
 	padding: 3rem 3rem 3rem 3rem;
+	background-image: url('../Images/GIMM.png');
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 	#banner nav ul {
@@ -49,6 +54,7 @@ a {
 		#banner nav a:hover {
 			background-color: aliceblue;
 			color: grey;
+			opacity: 0.5;
 		}
 
 #mainpage {
@@ -59,6 +65,10 @@ a {
 
 #welcome {
 	text-align: center;
+}
+
+#sitename {
+	color: aliceblue;
 }
 
 #joepic {
