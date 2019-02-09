@@ -76,7 +76,13 @@ a {
 	float: left;
 	padding: 0 5rem 5rem 0;
 }
-
+.rotateIMG{
+	-webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 #andrewpic {
 	width: 500px;
 	float: left;
