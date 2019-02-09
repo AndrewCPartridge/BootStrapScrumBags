@@ -4,4 +4,4 @@ i personally felt like the custom cursor was a bit gimicky, so i restricted it t
 
 these changes reflect my personal preferences, but this is a democracy, so i'm not going to push them to the master branch. if you guys could look them over and tell me what you think, that would be awesome.
 
-additionally, i am deleting the internal folder in this branch, because it is confusing and github is having trouble figuring out where it's supposed to upload files.
+additionally, i am deleting the internal folder in this branch, because it is confusing and github is having trouble figuring out where it's supposed to upload files. i would recommend that each of you does the same in your respective branches.
