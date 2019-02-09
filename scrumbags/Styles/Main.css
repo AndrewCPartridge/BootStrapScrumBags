@@ -15,8 +15,9 @@ h1 {
 	font-size: 2rem;
 	color: aliceblue;
 	text-align: center;
-	padding-top: 4rem;
+	padding-top:4rem;
 	padding-bottom: 2rem;
+
 }
 
 h2 {
@@ -66,10 +67,28 @@ a {
 
 #welcome {
 	text-align: center;
+	font-size: 13pt;
+	color: rgb(255, 255, 255);
+	border-style: solid;
+	border-width: thick;
+	border-color: aliceblue;
+	padding: 10px;
+	margin: 20px;
+	line-height: 1.8;
+	
+	
+	
+	
 }
 
 #sitename {
 	color: aliceblue;
+}
+
+#joe {
+	font-size:20px; 
+	color: aliceblue;
+
 }
 
 #joepic {
@@ -99,6 +118,7 @@ a {
 #joediv {
 	min-height: 800px;
 	margin: auto;
+	padding: 5rem 0 0rem 0rem;
 }
 
 #andrewdiv {
