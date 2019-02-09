@@ -69,6 +69,13 @@ a {
 
 #welcome {
 	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-color: aliceblue;
+	color: aliceblue;
+	line-height: 1.8;
+	padding: 1rem 1rem;
+	font-size: 1.2rem;
 }
 
 #sitename {
@@ -91,8 +98,24 @@ a {
 	padding: 0 1rem 1rem 0;
 }
 
-#andrew{
-	font-size: 13px;
+#joe {
+	font-size: 1.2rem;
+	color: aliceblue;
+}
+
+#andrew {
+	font-size: 1.2rem;
+	color: aliceblue;
+}
+
+#devon {
+	font-size: 1.2rem;
+	color: aliceblue;
+}
+
+#christine {
+	font-size: 1.2rem;
+	color: aliceblue;
 }
 
 #andrewpic {
