@@ -40,21 +40,25 @@ a {
 	}
 
 	#banner nav li {
-		display: inline;
-	}
-
-	#banner nav a {
-		color: aliceblue;
+		display: inline-block;
 		padding: 1rem 1rem;
 		border-style: solid;
 		border-width: thin;
 		border-color: aliceblue;
 	}
 
-		#banner nav a:hover {
+		#banner nav li:hover {
 			background-color: aliceblue;
-			color: grey;
 			opacity: 0.5;
+		}
+
+	#banner nav a {
+		color: aliceblue;
+		padding: 1rem 1rem;
+	}
+
+		#banner nav a:hover {
+			color: grey;
 		}
 
 #mainpage {
