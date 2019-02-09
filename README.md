@@ -1,4 +1,4 @@
-okay, so i've made a new branch, because i guess we're supposed to do that. also, i've made some changes to the website that i feel like need approval before i actually push them, because they affect some changes that another group member made.
+okay, so i've made a new branch, because i guess we're each supposed to have out own branch for this assignment. also, i've made some changes to the website that i feel like need approval before i actually push them, because they affect some changes that another group member made.
 
 i personally felt like the custom cursor was a bit gimicky, so i restricted it to only change the user's cursor when they hover over specific elements. i also fixed the picture flipping to look more clean.
 
