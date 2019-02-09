@@ -1,13 +1,13 @@
-@import url(reset.css);
+﻿@import url(reset.css);
 
 html {
-	background-color: grey;
+	background-color: lightsteelblue;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
 	line-height: 1.4;
-	color: black;
+	color: darkslateblue;
 }
 
 h1 {
@@ -117,7 +117,7 @@ a {
 
 #back {
 	float: right;
-	color: darkgray;
+	color: steelblue;
 	font-style: italic;
 }
 
