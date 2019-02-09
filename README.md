@@ -3,3 +3,5 @@ website changelog:
 - warm and fuzzy intro added
 - added sexy-ass parallax effect
 - BOW BEFORE YOUR HTML / CSS GOD
+
+added new branch "devon"
