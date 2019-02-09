@@ -40,21 +40,25 @@ a {
 	}
 
 	#banner nav li {
-		display: inline;
-	}
-
-	#banner nav a {
-		color: aliceblue;
+		display: inline-block;
 		padding: 1rem 1rem;
 		border-style: solid;
 		border-width: thin;
 		border-color: aliceblue;
 	}
 
-		#banner nav a:hover {
+		#banner nav li:hover {
 			background-color: aliceblue;
-			color: grey;
 			opacity: 0.5;
+		}
+
+	#banner nav a {
+		color: aliceblue;
+		padding: 1rem 1rem;
+	}
+
+		#banner nav a:hover {
+			color: grey;
 		}
 
 #mainpage {
@@ -76,13 +80,17 @@ a {
 	float: left;
 	padding: 0 5rem 5rem 0;
 }
-.rotateIMG{
-	-webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+
+	#joepic:hover {
+		transform: scaleX(-1);
+		padding: 0 0 5rem 5rem;
+	}
+
+#megamangif {
+	float: left;
+	padding: 0 1rem 1rem 0;
 }
+
 #andrewpic {
 	width: 500px;
 	float: left;
@@ -104,6 +112,7 @@ a {
 #joediv {
 	min-height: 800px;
 	margin: auto;
+	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
 }
 
 #andrewdiv {
