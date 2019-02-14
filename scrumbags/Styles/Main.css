@@ -41,24 +41,21 @@ a {
 
 	#banner nav li {
 		display: inline-block;
-		padding: 1rem 1rem;
+		padding: 1.5rem 0.5rem;
+	}
+
+	#banner nav a {
+		color: aliceblue;
+		padding: 1.25rem 1.25rem;
 		border-style: solid;
 		border-width: thin;
 		border-color: aliceblue;
 	}
 
-		#banner nav li:hover {
-			background-color: aliceblue;
-			opacity: 0.5;
-		}
-
-	#banner nav a {
-		color: aliceblue;
-		padding: 1.25rem 1.25rem;
-	}
-
 		#banner nav a:hover {
+			background-color: aliceblue;
 			color: grey;
+			opacity: 0.5;
 		}
 
 #mainpage {
@@ -84,6 +81,7 @@ a {
 
 #joepic {
 	width: 500px;
+	max-width: 100%;
 	float: left;
 	padding: 0 5rem 5rem 0;
 }
@@ -94,8 +92,13 @@ a {
 	}
 
 #megamangif {
+	max-width: 40%;
 	float: left;
 	padding: 0 1rem 1rem 0;
+}
+
+#kirby {
+	max-width: 40%;
 }
 
 #joe {
@@ -122,18 +125,21 @@ a {
 	width: 500px;
 	float: left;
 	padding: 0 5rem 5rem 0;
+	max-width: 100%;
 }
 
 #devonpic {
 	width: 500px;
 	float: left;
 	padding: 0 5rem 5rem 0;
+	max-width: 100%;
 }
 
 #christinepic {
 	width: 500px;
 	float: left;
 	padding: 0 5rem 5rem 0;
+	max-width: 100%;
 }
 
 #joediv {
