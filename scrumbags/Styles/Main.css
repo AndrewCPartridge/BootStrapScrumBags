@@ -79,26 +79,14 @@ a {
 	color: aliceblue;
 }
 
-#joepic {
-	width: 500px;
-	max-width: 100%;
-	float: left;
-	padding: 0 5rem 5rem 0;
-}
-
-	#joepic:hover {
-		transform: scaleX(-1);
-		padding: 0 0 5rem 5rem;
-	}
-
 #megamangif {
 	max-width: 40%;
 	float: left;
-	padding: 0 1rem 1rem 0;
 }
 
 #kirby {
 	max-width: 40%;
+	float: right;
 }
 
 #joe {
@@ -121,6 +109,18 @@ a {
 	color: aliceblue;
 }
 
+#joepic {
+	width: 500px;
+	max-width: 100%;
+	float: left;
+	padding: 0 5rem 5rem 0;
+}
+
+	#joepic:hover {
+		transform: scaleX(-1);
+		padding: 0 0 5rem 5rem;
+	}
+
 #andrewpic {
 	width: 500px;
 	float: left;
@@ -142,25 +142,43 @@ a {
 	max-width: 100%;
 }
 
+@media screen and (max-width: 950px) {
+	#joepic {
+		float: none;
+	}
+
+	#andrewpic {
+		float: none;
+	}
+
+	#devonpic {
+		float: none;
+	}
+
+	#christinepic {
+		float: none;
+	}
+}
+
 #joediv {
-	min-height: 800px;
+	min-height: 1100px;
 	margin: auto;
 	padding: 10rem 0 0 0;
 	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
 }
 
 #andrewdiv {
-	min-height: 900px;
+	min-height: 1100px;
 	margin: auto;
 }
 
 #devondiv {
-	min-height: 900px;
+	min-height: 1100px;
 	margin: auto;
 }
 
 #christinediv {
-	min-height: 900px;
+	min-height: 1100px;
 	margin: auto;
 }
 
