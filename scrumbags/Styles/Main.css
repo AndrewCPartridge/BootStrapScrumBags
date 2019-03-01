@@ -1,13 +1,13 @@
 ﻿@import url(reset.css);
 
 html {
-	background-color: rgb(6, 108, 240);
+	background-color: lightsteelblue;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.background {
+body {
 	line-height: 1.4;
-	background-color: rgb(55, 182, 165);
+	color: darkslateblue;
 }
 
 h1 {
@@ -26,67 +26,14 @@ a {
 	text-decoration: none;
 }
 
-.header{
-	position: fixed;
-	width: 100%;
-	z-index: 5;
-}
-
-/* @-webkit-keyframes zoomInDown {
-	from {
-	  opacity: 0;
-	  -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	  animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	}
-  
-	60% {
-	  opacity: 1;
-	  -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	}
-  }
-  
-  @keyframes zoomInDown {
-	from {
-	  opacity: 0;
-	  -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	  animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	}
-  
-	60% {
-	  opacity: 1;
-	  -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	}
-  }
-  
-  .zoomInDown {
-	-webkit-animation-name: zoomInDown;
-	animation-name: zoomInDown;
-  } */
-
-/* #banner {
-	padding: 20rem 3rem 3rem 3rem;
+#banner {
+	padding: 30rem 3rem 3rem 3rem;
 	background-image: url('../Images/GIMM.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-} */
-
-.scrumTitle {
-color: black;
 }
-
-
 
 	#banner nav ul {
 		text-align: center;
@@ -98,15 +45,15 @@ color: black;
 	}
 
 	#banner nav a {
-		color: rgb(26, 140, 240);
+		color: aliceblue;
 		padding: 1.25rem 1.25rem;
 		border-style: solid;
 		border-width: thin;
-		border-color: rgb(21, 132, 230);
+		border-color: aliceblue;
 	}
 
 		#banner nav a:hover {
-			background-color: rgb(19, 131, 230);
+			background-color: aliceblue;
 			color: grey;
 			opacity: 0.5;
 		}
@@ -121,16 +68,15 @@ color: black;
 	text-align: center;
 	border-style: solid;
 	border-width: thick;
-	border-color: rgb(209, 212, 214);
-	color: rgb(211, 214, 218);
+	border-color: aliceblue;
+	color: aliceblue;
 	line-height: 1.8;
 	padding: 1rem 1rem;
 	font-size: 1.2rem;
 }
 
-
 #sitename {
-	color: rgb(24, 126, 214);
+	color: aliceblue;
 }
 
 #megamangif {
@@ -145,28 +91,22 @@ color: black;
 
 #joe {
 	font-size: 1.2rem;
-	color: rgb(17, 111, 194);
+	color: aliceblue;
 }
 
 #andrew {
 	font-size: 1.2rem;
-	color: rgb(27, 138, 235);
+	color: aliceblue;
 }
 
 #devon {
 	font-size: 1.2rem;
-	color: rgb(21, 131, 226);
+	color: aliceblue;
 }
 
 #christine {
 	font-size: 1.2rem;
-	color: rgb(19, 132, 231);
-}
-
-/* joes css */
-
-.joeBackground{
-	background-color: blueviolet;
+	color: aliceblue;
 }
 
 #joepic {
