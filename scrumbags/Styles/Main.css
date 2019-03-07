@@ -7,19 +7,19 @@ html {
 body {
 	line-height: 1.4;
 	color: aliceblue;
-	padding: 1rem 1rem;;
+	padding: 1rem 1rem;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3.5rem;
 	color: aliceblue;
 	text-align: center;
 	padding-top: 4rem;
 	padding-bottom: 2rem;
 }
 
-h2 {
-	font-size: 1.5rem;
+p {
+	font-size: 1.3rem;
 }
 
 a {
@@ -34,6 +34,7 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 5;
+	font-size: 1.3rem;
 }
 
 .main-background {
@@ -46,7 +47,7 @@ a {
 
 #mainpage {
 	padding: 5rem 3rem 3rem 3rem;
-	max-width: 850px;
+	min-width: 80%;
 	margin: auto;
 }
 
@@ -58,7 +59,7 @@ a {
 	color: aliceblue;
 	line-height: 1.8;
 	padding: 1rem 1rem;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 }
 
 #sitename {
@@ -100,7 +101,7 @@ a {
 	float: left;
 	max-width: 100%;
 	border-radius: 100%;
-	margin: 0 5rem 5rem 0;
+	margin: 0 20rem 5rem 0;
 }
 
 	#joepic:hover {
@@ -112,7 +113,7 @@ a {
 	float: left;
 	max-width: 100%;
 	border-radius: 100%;
-	margin: 0 5rem 5rem 0;
+	margin: 0 20rem 5rem 0;
 }
 
 #devonpic {
@@ -120,7 +121,7 @@ a {
 	float: left;
 	max-width: 100%;
 	border-radius: 100%;
-	margin: 0 5rem 5rem 0;
+	margin: 0 20rem 5rem 0;
 }
 
 #christinepic {
@@ -128,10 +129,10 @@ a {
 	float: left;
 	max-width: 100%;
 	border-radius: 100%;
-	margin: 0 5rem 5rem 0;
+	margin: 0 20rem 5rem 0;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
 	#joepic {
 		float: none;
 	}
@@ -149,27 +150,27 @@ a {
 	}
 }
 
-#joediv {
-	min-height: 1100px;
+#joediv {	
 	margin: auto;
 	padding: 5rem 0 0 0;
+	min-width: 80%;	
 	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
 }
 
 #andrewdiv {
-	min-height: 1100px;
 	margin: auto;
 	padding: 5rem 0 0 0;
+	min-width: 80%;
 }
 
 #devondiv {
-	min-height: 1100px;
 	margin: auto;
 	padding: 5rem 0 0 0;
+	min-width: 80%;
 }
 
 #christinediv {
-	min-height: 1100px;
 	margin: auto;
 	padding: 5rem 0 0 0;
+	min-width: 80%;
 }
