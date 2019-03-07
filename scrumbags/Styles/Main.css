@@ -6,7 +6,8 @@ html {
 
 body {
 	line-height: 1.4;
-	color: darkslateblue;
+	color: aliceblue;
+	padding: 1rem 1rem;;
 }
 
 h1 {
@@ -26,12 +27,7 @@ a {
 }
 
 #banner {
-	padding: 40rem 3rem 3rem 3rem;
-	background-image: url('../Images/GIMM.png');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	padding: 30rem 0 0 0;
 }
 
 .header{
@@ -41,7 +37,11 @@ a {
 }
 
 .main-background {
-	background-color: lightsteelblue;
+	background-image: url('../Images/GIMM.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #mainpage {
@@ -97,35 +97,38 @@ a {
 
 #joepic {
 	width: 500px;
-	max-width: 100%;
 	float: left;
-	padding: 0 5rem 5rem 0;
+	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 5rem 5rem 0;
 }
 
 	#joepic:hover {
 		transform: scaleX(-1);
-		padding: 0 0 5rem 5rem;
 	}
 
 #andrewpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 5rem 0;
 	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 5rem 5rem 0;
 }
 
 #devonpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 5rem 0;
 	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 5rem 5rem 0;
 }
 
 #christinepic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 5rem 0;
 	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 5rem 5rem 0;
 }
 
 @media screen and (max-width: 950px) {
