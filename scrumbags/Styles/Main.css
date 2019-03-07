@@ -1,7 +1,6 @@
 ﻿@import url(reset.css);
 
 html {
-	background-color: lightsteelblue;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -27,7 +26,7 @@ a {
 }
 
 #banner {
-	padding: 30rem 3rem 3rem 3rem;
+	padding: 40rem 3rem 3rem 3rem;
 	background-image: url('../Images/GIMM.png');
 	background-attachment: fixed;
 	background-position: center;
@@ -39,6 +38,10 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 5;
+}
+
+.main-background {
+	background-color: lightsteelblue;
 }
 
 #mainpage {
