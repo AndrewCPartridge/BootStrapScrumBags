@@ -12,7 +12,7 @@ html {
 
 h1 {
 	font-size: 2rem;
-	color: aliceblue;
+	color: rgb(2, 13, 22);
 	text-align: center;
 	padding-top: 4rem;
 	padding-bottom: 2rem;
@@ -83,6 +83,7 @@ a {
 } */
 
 .scrumTitle {
+
 color: black;
 text-align: center;
 }
@@ -166,9 +167,9 @@ text-align: center;
 
 /* joes css */
 
-/* .joeBackground{
-	background-color: blueviolet;
-} */
+.joeBackground{
+	background-color: blue ;
+}
 
 #joepic {
 	width: 500px;
@@ -222,6 +223,7 @@ text-align: center;
 }
 
 #joediv {
+	 
 	min-height: 1100px;
 	margin: auto;
 	padding: 10rem 0 0 0;
