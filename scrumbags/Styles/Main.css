@@ -45,7 +45,7 @@ a {
 }
 
 #mainpage {
-	padding: 3rem 3rem 3rem 3rem;
+	padding: 5rem 3rem 3rem 3rem;
 	max-width: 850px;
 	margin: auto;
 }
@@ -149,31 +149,24 @@ a {
 #joediv {
 	min-height: 1100px;
 	margin: auto;
-	padding: 10rem 0 0 0;
+	padding: 5rem 0 0 0;
 	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
 }
 
 #andrewdiv {
 	min-height: 1100px;
 	margin: auto;
+	padding: 5rem 0 0 0;
 }
 
 #devondiv {
 	min-height: 1100px;
 	margin: auto;
+	padding: 5rem 0 0 0;
 }
 
 #christinediv {
 	min-height: 1100px;
 	margin: auto;
+	padding: 5rem 0 0 0;
 }
-
-#back {
-	float: right;
-	color: steelblue;
-	font-style: italic;
-}
-
-	#back:hover {
-		color: aliceblue;
-	}
