@@ -7,7 +7,7 @@ html {
 
 .background {
 	line-height: 1.4;
-	background-color: rgb(55, 182, 165);
+	background-color: rgb(47, 64, 216);
 }
 
 h1 {
@@ -84,6 +84,7 @@ a {
 
 .scrumTitle {
 color: black;
+text-align: center;
 }
 
 
