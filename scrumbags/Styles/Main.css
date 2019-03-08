@@ -136,6 +136,31 @@ a {
 	margin: 0 20rem 5rem 0;
 }
 
+#joediv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
+}
+
+#andrewdiv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+}
+
+#devondiv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+}
+
+#christinediv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+}
+
 @media screen and (max-width: 1600px) {
 	html {
 		font-size: 90%;
@@ -166,31 +191,6 @@ a {
 
 @media screen and (max-width: 500px) {
 	html {
-		font-size: 50%;
+		font-size: 60%;
 	}
-}
-
-#joediv {
-	margin: auto;
-	padding: 5rem 0 0 0;
-	min-width: 80%;	
-	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
-}
-
-#andrewdiv {
-	margin: auto;
-	padding: 5rem 0 0 0;
-	min-width: 80%;
-}
-
-#devondiv {
-	margin: auto;
-	padding: 5rem 0 0 0;
-	min-width: 80%;
-}
-
-#christinediv {
-	margin: auto;
-	padding: 5rem 0 0 0;
-	min-width: 80%;
 }
