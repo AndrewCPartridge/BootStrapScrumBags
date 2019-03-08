@@ -37,6 +37,10 @@ a {
 	font-size: 1.3rem;
 }
 
+.navbar-brand {
+	font-size: 2rem;
+}
+
 .main-background {
 	background-image: url('../Images/GIMM.png');
 	background-attachment: fixed;
@@ -132,7 +136,17 @@ a {
 	margin: 0 20rem 5rem 0;
 }
 
+@media screen and (max-width: 1600px) {
+	html {
+		font-size: 90%;
+	}
+}
+
 @media screen and (max-width: 1200px) {
+	html {
+		font-size: 80%;
+	}
+	
 	#joepic {
 		float: none;
 	}
@@ -150,7 +164,13 @@ a {
 	}
 }
 
-#joediv {	
+@media screen and (max-width: 500px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+#joediv {
 	margin: auto;
 	padding: 5rem 0 0 0;
 	min-width: 80%;	
