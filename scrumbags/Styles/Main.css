@@ -193,4 +193,17 @@ a {
 	html {
 		font-size: 60%;
 	}
+
+	#christine_videos {
+		margin: auto;
+		padding: 5rem;
+	}
+
+	#greenscreen_video {
+		float: left;
+	}
+
+	#christine_animation {
+		float: right;
+	}
 }
