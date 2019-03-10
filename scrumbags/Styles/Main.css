@@ -196,14 +196,15 @@ a {
 
 	#christine_videos {
 		margin: auto;
-		padding: 5rem;
 	}
 
-	#greenscreen_video {
+	#christine_greenscreen {
 		float: left;
+		margin: 10rem;
 	}
 
 	#christine_animation {
 		float: right;
+		margin: 10rem;
 	}
 }
