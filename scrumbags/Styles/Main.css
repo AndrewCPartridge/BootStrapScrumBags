@@ -169,11 +169,12 @@ a:hover {
 
 #christine_videos {
 	margin: auto;
+	padding-top: 20rem;
 }
 
 #christine_greenscreen {
 	float: left;
-	margin: 5rem;
+	padding: 0 2.5rem 2.5rem 0;
 }
 
 #christine_greenscreen iframe {
@@ -182,7 +183,6 @@ a:hover {
 
 #christine_animation {
 	float: right;
-	margin: 5rem;
 }
 
 #christine_animation iframe {
