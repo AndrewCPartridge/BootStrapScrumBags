@@ -23,6 +23,12 @@ p {
 }
 
 a {
+	color: steelblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: aliceblue;
 	text-decoration: none;
 }
 
@@ -161,9 +167,39 @@ a {
 	min-width: 80%;
 }
 
+#christine_videos {
+	margin: auto;
+}
+
+#christine_greenscreen {
+	float: left;
+	margin: 5rem;
+}
+
+#christine_greenscreen iframe {
+	max-width: 100%;
+}
+
+#christine_animation {
+	float: right;
+	margin: 5rem;
+}
+
+#christine_animation iframe {
+	max-width: 100%;
+}
+
 @media screen and (max-width: 1600px) {
 	html {
 		font-size: 90%;
+	}
+
+	#christine_greenscreen {
+		float: none;
+	}
+
+	#christine_animation {
+		float: none;
 	}
 }
 
@@ -193,18 +229,4 @@ a {
 	html {
 		font-size: 60%;
 	}
-}
-
-#christine_videos {
-	margin: auto;
-}
-
-#christine_greenscreen {
-	float: left;
-	margin: 5rem;
-}
-
-#christine_animation {
-	float: right;
-	margin: 5rem;
 }
