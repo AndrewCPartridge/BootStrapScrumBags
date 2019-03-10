@@ -193,18 +193,18 @@ a {
 	html {
 		font-size: 60%;
 	}
+}
 
-	#christine_videos {
-		margin: auto;
-	}
+#christine_videos {
+	margin: auto;
+}
 
-	#christine_greenscreen {
-		float: left;
-		margin: 10rem;
-	}
+#christine_greenscreen {
+	float: left;
+	margin: 5rem;
+}
 
-	#christine_animation {
-		float: right;
-		margin: 10rem;
-	}
+#christine_animation {
+	float: right;
+	margin: 5rem;
 }
