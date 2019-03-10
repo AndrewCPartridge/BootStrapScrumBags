@@ -1,119 +1,63 @@
 ﻿@import url(reset.css);
 
 html {
-	background-color: rgb(6, 108, 240);
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.background {
+body {
 	line-height: 1.4;
-	background-color: rgb(55, 182, 165);
+	color: aliceblue;
+	padding: 1rem 1rem;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3.5rem;
 	color: aliceblue;
 	text-align: center;
 	padding-top: 4rem;
 	padding-bottom: 2rem;
 }
 
-h2 {
-	font-size: 1.5rem;
+p {
+	font-size: 1.3rem;
 }
 
 a {
+	color: steelblue;
 	text-decoration: none;
+}
+
+a:hover {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#banner {
+	padding: 30rem 0 0 0;
 }
 
 .header{
 	position: fixed;
 	width: 100%;
 	z-index: 5;
+	font-size: 1.3rem;
 }
 
-/* @-webkit-keyframes zoomInDown {
-	from {
-	  opacity: 0;
-	  -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	  animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	}
-  
-	60% {
-	  opacity: 1;
-	  -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	}
-  }
-  
-  @keyframes zoomInDown {
-	from {
-	  opacity: 0;
-	  -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	  animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	}
-  
-	60% {
-	  opacity: 1;
-	  -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-	  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-	}
-  }
-  
-  .zoomInDown {
-	-webkit-animation-name: zoomInDown;
-	animation-name: zoomInDown;
-  } */
+.navbar-brand {
+	font-size: 2rem;
+}
 
-/* #banner {
-	padding: 20rem 3rem 3rem 3rem;
+.main-background {
 	background-image: url('../Images/GIMM.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-} */
-
-.scrumTitle {
-color: black;
 }
 
-
-
-	#banner nav ul {
-		text-align: center;
-	}
-
-	#banner nav li {
-		display: inline-block;
-		padding: 1.5rem 0.5rem;
-	}
-
-	#banner nav a {
-		color: rgb(26, 140, 240);
-		padding: 1.25rem 1.25rem;
-		border-style: solid;
-		border-width: thin;
-		border-color: rgb(21, 132, 230);
-	}
-
-		#banner nav a:hover {
-			background-color: rgb(19, 131, 230);
-			color: grey;
-			opacity: 0.5;
-		}
-
 #mainpage {
-	padding: 3rem 3rem 3rem 3rem;
-	max-width: 850px;
+	padding: 5rem 3rem 3rem 3rem;
+	min-width: 80%;
 	margin: auto;
 }
 
@@ -121,16 +65,15 @@ color: black;
 	text-align: center;
 	border-style: solid;
 	border-width: thick;
-	border-color: rgb(209, 212, 214);
-	color: rgb(211, 214, 218);
+	border-color: aliceblue;
+	color: aliceblue;
 	line-height: 1.8;
 	padding: 1rem 1rem;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 }
 
-
 #sitename {
-	color: rgb(24, 126, 214);
+	color: aliceblue;
 }
 
 #megamangif {
@@ -145,64 +88,126 @@ color: black;
 
 #joe {
 	font-size: 1.2rem;
-	color: rgb(17, 111, 194);
+	color: aliceblue;
 }
 
 #andrew {
 	font-size: 1.2rem;
-	color: rgb(27, 138, 235);
+	color: aliceblue;
 }
 
 #devon {
 	font-size: 1.2rem;
-	color: rgb(21, 131, 226);
+	color: aliceblue;
 }
 
 #christine {
 	font-size: 1.2rem;
-	color: rgb(19, 132, 231);
-}
-
-/* joes css */
-
-.joeBackground{
-	background-color: blueviolet;
+	color: aliceblue;
 }
 
 #joepic {
 	width: 500px;
-	max-width: 100%;
 	float: left;
-	padding: 0 5rem 5rem 0;
+	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 20rem 5rem 0;
 }
 
 	#joepic:hover {
 		transform: scaleX(-1);
-		padding: 0 0 5rem 5rem;
 	}
 
 #andrewpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 5rem 0;
 	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 20rem 5rem 0;
 }
 
 #devonpic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 5rem 0;
 	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 20rem 5rem 0;
 }
 
 #christinepic {
 	width: 500px;
 	float: left;
-	padding: 0 5rem 5rem 0;
+	max-width: 100%;
+	border-radius: 100%;
+	margin: 0 20rem 5rem 0;
+}
+
+#joediv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
+}
+
+#andrewdiv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+}
+
+#devondiv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+}
+
+#christinediv {
+	margin: auto;
+	padding: 5rem 0 0 0;
+	min-width: 80%;
+}
+
+#christine_videos {
+	margin: auto;
+}
+
+#christine_greenscreen {
+	float: left;
+	margin: 5rem;
+}
+
+#christine_greenscreen iframe {
 	max-width: 100%;
 }
 
-@media screen and (max-width: 950px) {
+#christine_animation {
+	float: right;
+	margin: 5rem;
+}
+
+#christine_animation iframe {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+	html {
+		font-size: 90%;
+	}
+
+	#christine_greenscreen {
+		float: none;
+	}
+
+	#christine_animation {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 80%;
+	}
+	
 	#joepic {
 		float: none;
 	}
@@ -220,34 +225,8 @@ color: black;
 	}
 }
 
-#joediv {
-	min-height: 1100px;
-	margin: auto;
-	padding: 10rem 0 0 0;
-	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
-}
-
-#andrewdiv {
-	min-height: 1100px;
-	margin: auto;
-}
-
-#devondiv {
-	min-height: 1100px;
-	margin: auto;
-}
-
-#christinediv {
-	min-height: 1100px;
-	margin: auto;
-}
-
-#back {
-	float: right;
-	color: steelblue;
-	font-style: italic;
-}
-
-	#back:hover {
-		color: aliceblue;
+@media screen and (max-width: 500px) {
+	html {
+		font-size: 60%;
 	}
+}
