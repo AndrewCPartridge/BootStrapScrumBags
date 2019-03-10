@@ -167,25 +167,25 @@ a:hover {
 	min-width: 80%;
 }
 
-#christine_videos {
+#videos {
 	margin: auto;
 	padding-top: 20rem;
 }
 
-#christine_greenscreen {
+#video-left {
 	float: left;
 	padding: 0 2.5rem 2.5rem 0;
 }
 
-#christine_greenscreen iframe {
+#video-left iframe {
 	max-width: 100%;
 }
 
-#christine_animation {
+#video-right {
 	float: right;
 }
 
-#christine_animation iframe {
+#video-right iframe {
 	max-width: 100%;
 }
 
@@ -194,11 +194,11 @@ a:hover {
 		font-size: 90%;
 	}
 
-	#christine_greenscreen {
+	#video-left {
 		float: none;
 	}
 
-	#christine_animation {
+	#video-right {
 		float: none;
 	}
 }
