@@ -22,16 +22,6 @@ p {
 	font-size: 1.3rem;
 }
 
-a {
-	color: steelblue;
-	text-decoration: none;
-}
-
-a:hover {
-	color: aliceblue;
-	text-decoration: none;
-}
-
 #banner {
 	padding: 30rem 0 0 0;
 }
@@ -48,6 +38,11 @@ a:hover {
 
 .navbar-brand {
 	font-size: 2rem;
+	color: black;
+}
+
+.navbar-brand:hover {
+	color: black;
 }
 
 .nav-item {
@@ -60,12 +55,32 @@ a:hover {
 	border-color: rgba(0, 0, 0, 0.75);
 }
 
+.nav-item a {
+	color: black;
+	opacity: 0.5;
+}
+
+.nav-item a:hover {
+	color: black;
+	opacity: 0.75;
+}
+
 .main-background {
 	background-image: url('../Images/GIMM.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.container-fluid a {
+	color: steelblue;
+	text-decoration: none;
+}
+
+.container-fluid a:hover {
+	color: aliceblue;
+	text-decoration: none;
 }
 
 #mainpage {
