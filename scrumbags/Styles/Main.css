@@ -217,6 +217,10 @@ p {
 	max-width: 100%;
 }
 
+#squidicon {
+	padding-top: 30rem;
+}
+
 @media screen and (max-width: 1600px) {
 	html {
 		font-size: 90%;
@@ -228,6 +232,10 @@ p {
 
 	#video-right {
 		float: none;
+	}
+
+	#squidicon {
+		padding-top: 5rem;
 	}
 }
 
