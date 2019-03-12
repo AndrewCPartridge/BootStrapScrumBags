@@ -190,11 +190,14 @@ p {
 	margin: 0 20rem 5rem 0;
 }
 
+#joe-page {
+	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
+}
+
 #joediv {
 	margin: auto;
 	padding: 5rem 0 0 0;
 	min-width: 80%;
-	cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto;
 }
 
 #andrewdiv {
