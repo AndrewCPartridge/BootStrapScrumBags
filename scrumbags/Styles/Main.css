@@ -105,13 +105,13 @@ p {
 }
 
 #megamangif {
-	max-width: 40%;
+	max-width: 25;
 	float: left;
 }
 
 #kirby {
 	max-width: 40%;
-	float: right;
+	float: center;
 }
 
 #joe {
