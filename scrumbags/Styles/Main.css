@@ -22,8 +22,12 @@ p {
 	font-size: 1.3rem;
 }
 
+.BioPadding{
+	padding-top: 8rem;
+}
+
 #banner {
-	padding: 30rem 0 0 0;
+	padding-top: 30rem;
 }
 
 .header{
@@ -100,18 +104,25 @@ p {
 	font-size: 1.6rem;
 }
 
+#icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
 #sitename {
 	color: aliceblue;
 }
 
 #megamangif {
-	max-width: 40%;
+	max-width: 25;
 	float: left;
 }
 
 #kirby {
 	max-width: 40%;
-	float: right;
+	float: center;
 }
 
 #joe {
