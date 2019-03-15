@@ -68,6 +68,11 @@ p {
 	color: black;
 	opacity: 0.75;
 }
+.ImageSize{
+	max-height: 350px;
+max-width: 350px;
+
+}
 
 .main-background {
 	background-image: url('../Images/GIMM.png');
